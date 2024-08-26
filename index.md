@@ -1,5 +1,5 @@
 ---
-title: /
+title: /hex
 layout: home
 permalink: /
 ---
