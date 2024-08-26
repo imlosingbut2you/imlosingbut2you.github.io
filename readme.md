@@ -1,7 +1,16 @@
 ```
-bunu istediğin gibi kullanabilirsin.
-license
+bu projenin tüm hakları bana aittir. istediğim zaman buradaki
+her şeyi tamamen silebilir, değiştirebilir veya kaldırabilirim.
+ne zaman istersem bunu yaparım. ancak, bu projeyi kendi
+ihtiyaçlarına göre kullanmakta serbestsin. projenin telif
+hakları bana ait olsa da, içindeki bilgiler genel kullanıma
+açıktır. bu detayı aklında tut.
+
+lisans
 -------
-the theme is available as open source under the terms
-of the [MIT License](https://opensource.org/licenses/MIT).
+bu proje, [MIT Lisansı](https://opensource.org/licenses/MIT)
+altında açık kaynak olarak sunulmaktadır.
 ```
+
+
+
