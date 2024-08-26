@@ -5,9 +5,6 @@ date:   2024-08-08 12:32:45 +0100
 categories:
 ---
 
-[Videos](#Videos)
-
-
 # CTF
 **[CTFTime](https://ctftime.org)**<br>
 **[OverTheWire](https://overthewire.org/wargames)**<br>
