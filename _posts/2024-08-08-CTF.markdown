@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CTF"
+title:  "ctf"
 date:   2024-08-08 12:32:45 +0100
 categories:
 ---
