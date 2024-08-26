@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "projelerim"
-date:   2024-26-08 18:49:03 +0100
+date:   2024-08-26 18:49:03 +0100
 categories:
 ---
 
