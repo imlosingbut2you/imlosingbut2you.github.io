@@ -20,7 +20,8 @@ burada eskiden yazdığım bazı projeler olacak.
 
 ---
 
-Project 1 {:#project-1}
+Project 1 
+{:#project-1}
 -----------------------
 
 python:
@@ -28,7 +29,8 @@ python:
 print("hello guys.")
 {% endhighlight %}
 
-Project 2 {:#project-2}
+Project 2 
+{:#project-2}
 -----------------------
 
 python:
@@ -44,7 +46,8 @@ python:
 print("hello guys.")
 {% endhighlight %}
 
-Project 4 {:#project-4}
+Project 4 
+{:#project-4}
 -----------------------
 
 python:
@@ -52,7 +55,8 @@ python:
 print("hello guys.")
 {% endhighlight %}
 
-Project 5 {:#project-5}
+Project 5 
+{:#project-5}
 -----------------------
 
 python:
@@ -60,7 +64,8 @@ python:
 print("hello guys.")
 {% endhighlight %}
 
-Project 6 {:#project-6}
+Project 6 
+{:#project-6}
 -----------------------
 
 python:
@@ -68,7 +73,8 @@ python:
 print("hello guys.")
 {% endhighlight %}
 
-Project 7 {:#project-7}
+Project 7 
+{:#project-7}
 -----------------------
 
 python:
