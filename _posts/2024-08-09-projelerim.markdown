@@ -18,6 +18,7 @@ burada eskiden yazdığım bazı projeler olacak.
 - [Project 9](#project-9)
 - [Project 10](#project-10)
 
+---
 
 Project 1 
 {:#project-1}
