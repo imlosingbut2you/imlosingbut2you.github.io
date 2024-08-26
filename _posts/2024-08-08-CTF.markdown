@@ -3527,3 +3527,88 @@ Useful links
 [swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
 
 [](https://storage.googleapis.com/vkmedia-wp-blogg-vk/uploads/uploads/sites/710/2013/08/Linux-101-Hacks.pdf)
+
+başka bir gün
+-------------
+
+overall useful website/tools
+-----------------------------
+
+hacktricks.xyz reference book
+
+– web –
+
+[webhook.site](https://webhook.site/) to get request bin
+[dirsearch](https://github.com/maurosoria/dirsearch) to brute force directory
+[GitTools](https://github.com/internetwache/GitTools) to pull git repo from public website, if .git is exposed
+[php_filter_chain_generator](https://github.com/synacktiv/php_filter_chain_generator) to generate php filter chain
+[postman](https://www.postman.com/) to send http requests
+[burpsuite](https://portswigger.net/burp/communitydownload) to intercept http request packages
+[wireshark](https://www.wireshark.org/) to capture/analyse network traffic
+[csp evaluator](https://csp-evaluator.withgoogle.com/) to evaluate CSP
+
+– rev –
+
+[disasm.pro](https://disasm.pro/) to disassemble bytecode online
+[fernflower](https://github.com/fesh0r/fernflower) to decompile java bytecode, made by JetBrains
+[angr](https://github.com/angr/angr) to get solution of input or sth
+
+– misc –
+
+[z3](https://github.com/Z3Prover/z3) to find solution under constrains
+[dcode](https://www.dcode.fr/en) to decode anything
+[CyberChef](https://gchq.github.io/CyberChef/) combine multiple tools to do sth
+[pylingual](https://pylingual.io/) decompiling pyc file
+
+– forensics / osint –
+
+[saucenao](https://saucenao.com/) to search for image source
+[aperisolve.com](https://www.aperisolve.com/) do stego for image online
+[photo-forensics](https://29a.ch/photo-forensics/) do stego for image online
+[stegseek](https://github.com/RickdeJager/stegseek) crack jpeg password
+[exiftool](https://github.com/exiftool/exiftool) print out EXIF
+[maigret](https://github.com/soxoj/maigret) to search for social media account, one of forks of sherlock
+[F5](https://github.com/matthewgao/F5-steganography) a common F5 implementation
+[autopsy](https://github.com/sleuthkit/autopsy) a GUI tool for forensics
+[volatility](https://github.com/volatilityfoundation/volatility) a CLI tool for forensics memory dump
+[zsteg](https://github.com/zed-0xff/zsteg) to do stego for PNG/BMP
+[png chunk checker](https://www.nayuki.io/page/png-file-chunk-inspector)
+[binwalk](https://github.com/ReFirmLabs/binwalk)
+
+– crypto –
+
+[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool) to attack RSA
+[hashclash](https://github.com/cr-marcstevens/hashclash) for MD5 collision
+[hashcat](https://github.com/hashcat/hashcat) to attack hash
+[yafu](https://github.com/bbuhrow/yafu) to factorize number
+[John the Ripper](https://github.com/openwall/john) jumbo to crack password
+
+– pwn –
+
+[checksec.sh]() to check binary security properties
+[gef](https://github.com/hugsy/gef) very useful GDB plugin / [gdb-dashboard](https://github.com/cyrus-and/gdb-dashboard) Modular visual interface for GDB
+[pwntools](https://github.com/Gallopsled/pwntools) utility for pwn in python
+[shellcheck](https://www.shellcheck.net/) check fault in shell script
+[rp](https://github.com/0vercl0k/rp/) fast ROP gadget finder
+[compiler explorer](https://godbolt.org/) Online code to assembly
+[Opcode and Instruction Reference Home](http://ref.x86asm.net/geek.html) for 32 and 64 bits
+[Syscall Reference](https://hackeradam.com/x86-64-linux-syscalls/) for 64 bits
+[dectect it easy](https://github.com/horsicq/Detect-It-Easy/)
+
+– I don’t know where to put –
+
+[gtfobins](https://gtfobins.github.io/) to search for binaries that can be used to get root shell under certain conditions
+[revshells.com](https://www.revshells.com/) to generate reverse shell code
+[PEASS-ng](https://github.com/carlospolop/PEASS-ng) to enumerate windows/linux privilege escalation
+
+
+Web
+---
+
+add . dot at the end of domain to bypass simple check [example.com.](example.com.)
+
+DOM Clobbering
+--------------
+
+[blink SECCON CTF 2023](https://blog.arkark.dev/2023/09/21/seccon-quals/#web-blink)
+
