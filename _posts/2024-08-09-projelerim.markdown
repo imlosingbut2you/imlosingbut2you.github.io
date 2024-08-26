@@ -18,11 +18,9 @@ burada eskiden yazdığım bazı projeler olacak.
 - [Project 9](#project-9)
 - [Project 10](#project-10)
 
----
 
 Project 1 
 {:#project-1}
------------------------
 
 python:
 {% highlight python %}
@@ -31,7 +29,6 @@ print("hello guys.")
 
 Project 2 
 {:#project-2}
------------------------
 
 python:
 {% highlight python %}
@@ -39,7 +36,6 @@ print("hello guys.")
 {% endhighlight %}
 
 Project 3 {:#project-3}
------------------------
 
 python:
 {% highlight python %}
@@ -48,7 +44,6 @@ print("hello guys.")
 
 Project 4 
 {:#project-4}
------------------------
 
 python:
 {% highlight python %}
@@ -57,7 +52,6 @@ print("hello guys.")
 
 Project 5 
 {:#project-5}
------------------------
 
 python:
 {% highlight python %}
@@ -66,7 +60,6 @@ print("hello guys.")
 
 Project 6 
 {:#project-6}
------------------------
 
 python:
 {% highlight python %}
@@ -75,7 +68,6 @@ print("hello guys.")
 
 Project 7 
 {:#project-7}
------------------------
 
 python:
 {% highlight python %}
