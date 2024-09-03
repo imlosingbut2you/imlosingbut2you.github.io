@@ -5,13 +5,13 @@ date:   2024-08-08 12:32:45 +0100
 categories:
 ---
 
-- [Platforms](#platforms)
+[Platforms](#platforms)
 -----------
-- [Tools](#tools)
+[Tools](#tools)
 -----------
-- [Videos](#videos)
+[Videos](#videos)
 -----------
-- [More Resources](#more-resources)
+[More Resources](#more-resources)
 -----------
 [Wikis](#wikis)
 -----------
