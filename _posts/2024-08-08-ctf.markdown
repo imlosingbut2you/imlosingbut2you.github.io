@@ -8,11 +8,17 @@ categories:
 - [Platforms](#platforms)
 -----------
 - [Tools](#tools)
+-----------
 - [Videos](#videos)
+-----------
 - [More Resources](#more-resources)
-- [Wikis](#wikis)
-- [Privilige Escalation](#privilige-escalation)
-- [Get interactive shell](#get-interactive-shell)
+-----------
+[Wikis](#wikis)
+-----------
+[Privilige Escalation](#privilige-escalation)
+-----------
+[Get interactive shell](#get-interactive-shell)
+-----------
 
 
 # ------ Platforms ------
