@@ -5,49 +5,17 @@ date:   2024-08-08 12:32:45 +0100
 categories:
 ---
 
-- [platforms](#platforms)
-- [tools](#tools)
-  - [online tools](#online-tools)
-  - [offline tools](#offline-tools)
-  - [my tools](#my-tools)
-- [videos](#videos)
-- [more resources](#more-resources)
-- [wikis](wikis)
-
-
-+ [CTFs](#ctfs)
-- [Web](#web-hacking)
-  - [Five Stages of Web Hacking](#five-stages-of-web-hacking)
-  - [Enumeration and Reconnaissance Tools](#enumeration-and-reconnaissance-tools)
-  - [Scanning](#scanning)
-  - [Payloads](#payloads)
-  - [Shells](#shells)
-  - [BufferOverflow](#bufferoverflow)
-  - [Gobuster](#gobuster)
-  - [SQLMAP](#sqlmap)
-- [Cryptography](#cryptography)
-  - [Caesar Cipher](#caesar-cipher)
-  - [Vigenere Cipher](#vigenere-cipher)
-  - [One Time Pad Cipher](#one-time-pad-cipher)
-* [Forensics / Steganography](#forensics--steganography)
-  - [General](#general)
-  - [Audio](#audio)
-  - [Image](#image)
-  - [Video](#video)
-  - [Machine Image](#machine-image)
-  - [Pcap](#pcap)
+- [Platforms](#platforms)
+-----------
+- [Tools](#tools)
+- [Videos](#videos)
+- [More Resources](#more-resources)
+- [Wikis](#wikis)
 - [Privilige Escalation](#privilige-escalation)
-  - [Standard Scripts for Enumeration](#standard-scripts-for-enumeration)
-  - [Reconnoitre](#reconnoitre)
-+ [Get interactive shell](#get-interactive-shell)
-  - [Linux](#linux)
-  - [Windows / General](#windows--general)
-* [OSINT](#osint)
-* [Misc](#misc)
+- [Get interactive shell](#get-interactive-shell)
 
 
-
-# Platforms
+# ------ Platforms ------
 {:#platforms}
 
 [CTFTime](https://ctftime.org)
@@ -295,7 +263,7 @@ categories:
 - [GCPGoat](https://github.com/ine-labs/GCPGoat) - A Damn Vulnerable GCP Infrastructure.
 - [Juice Shop](https://github.com/juice-shop/juice-shop-ctf) - Capture-the-Flag (CTF) environment setup tools for OWASP Juice Shop. 
 
-# Tools
+# ------ Tools ------
 {:#tools}
 
 [HackTheBox](https://app.hackthebox.eu)
@@ -313,7 +281,7 @@ categories:
 [HackXOR](https://hackxor.net)
 [Hacktoria](https://hacktoria.com)
 
-# Videos
+# ------ Videos ------
 {:#videos}
 
 [LiveOverflow](https://www.youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN)
@@ -417,7 +385,7 @@ categories:
 - [LiveOverFlow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w) - Video tutorials on Exploitation.
 - [MIPT CTF](https://github.com/xairy/mipt-ctf) - A small course for beginners in CTFs (in Russian).
 
-# Tools
+# ------ Tools ------
 {:#tools}
 
 [Ghidra](https://ghidra.re/CheatSheet.html)
@@ -432,7 +400,7 @@ categories:
 [RevShells](https://revshells.com) to generate reverse shell code
 [Wireshark](https://www.wireshark.org/)
 
-# More Resources
+# ------ More Resources ------
 {:#more-resources}
 
 [Bug Bounty Platforms](https://github.com/disclose/bug-bounty-platforms)
@@ -447,7 +415,7 @@ categories:
 [Learn BinExp](https://guyinatuxedo.github.io)
 [HTB Writeups](https://0xdf.gitlab.io)
 
-# Wikis
+# ------ Wikis ------
 {:#wikis}
 
 - [bi0s Wiki](https://teambi0s.gitlab.io/bi0s-wiki/) - Wiki from team bi0s.
@@ -459,9 +427,6 @@ categories:
 - [Seclist XSS](https://github.com/danielmiessler/SecLists/tree/master/Fuzzing/XSS)
 - [Seclist LFI Intruder](https://github.com/danielmiessler/SecLists/tree/master/Fuzzing/LFI)
 - [Here’s a helpful cheatsheet](https://trailofbits.github.io/ctf/forensics/)
-
-
-
 
 
 
@@ -915,29 +880,9 @@ Miscellaneous
 OSINT
 -----
 
-- Target validation: Whois, nslookup, dnsrecon, dig, Google Fu
-- Getting subdomains: Google, dig, nmap, sublist3r, Bluto, crt.sh, fierce.pl, knockpy
-
-- [hunter.io](https://hunter.io/) - known email and users for a specific domain
-- theharvester - search for emails in several search engines
-
-    ```bash
-    theHarvester -d *.co.il -l 500 -b google
-    ```
-- [crt.sh](http://crt.sh) - subdomains  search with %.tesla.co.il
-- [amass](https://github.com/OWASP/Amass) - can also search for subdomains and more
-
-    ```bash
-    amass enum -d tesla.com
-    ```
-- [builtwith](https://builtwith.com/) - show frameworks and technologies any domain is built with, then we can search for exploits for those technologies
-- [wappalizer](https://www.wappalyzer.com/download/) - browser addon that does almost the same as builtwith
-- whatweb - same but uglier than builtwith
 - [shodan.io](http://shodan.io) - find open ports and services online
-- [dnsdumpster](https://dnsdumpster.com/) - dns recon & research, find & lookup dns records
-- [ipinfo.io](http://ipinfo.io) - ip info
-- [dehashed](https://www.dehashed.com) - find leaked emails and passwords
-- [pimeyes](https://pimeyes.com/en) - Reverse search faces on the internet
+
+
 - [GeoSpy AI](https://geospy.ai)
 	- Geospatial vision LLM that can estimate location just from an image
 - [overpass turbo](https://overpass-turbo.eu) - Website that lets you query the OpenStreetMap API and visualize results
