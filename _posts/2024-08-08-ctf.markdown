@@ -5,10 +5,10 @@ date:   2024-08-08 12:32:45 +0100
 categories:
 ---
 
-[Platforms](#platforms)
-[Tools](#tools)
-[Videos](#videos)
-[More Resources](#more-resources)
+- [Platforms](#platforms)
+- [Tools](#tools)
+- [Videos](#videos)
+- [More Resources](#more-resources)
 [Wikis](#wikis)
 [Privilige Escalation](#privilige-escalation)
 [Get interactive shell](#get-interactive-shell)
