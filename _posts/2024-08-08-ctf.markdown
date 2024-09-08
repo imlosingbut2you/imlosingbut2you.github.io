@@ -14,6 +14,11 @@ categories:
 # ------ Platforms ------
 {:#platforms}
 
+https://ctf.turkhackteam.org/tr/
+https://attackdefense.com/
+https://cryptohack.org/
+https://cmdchallenge.com/
+
 [CTFTime](https://ctftime.org)
 [OverTheWire](https://overthewire.org/wargames)
 [PicoCTF](https://picoctf.org/)
