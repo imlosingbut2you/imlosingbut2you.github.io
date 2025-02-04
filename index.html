@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashlove</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div id="loginForm" class="auth-form">
+            <h2>Ashlove</h2>
+            <input type="password" id="password" placeholder="Şifre" required>
+            <button onclick="login()">Giriş Yap</button>
+        </div>
+
+        <div id="content" class="content" style="display: none;">
+            <div class="header">
+                <h2>Ashlove</h2>
+                <button onclick="openShareModal()" class="share-button">
+                    <i class="fas fa-plus"></i>
+                </button>
+            </div>
+
+            <div id="homePage" class="page active">
+                <div id="posts" class="posts"></div>
+            </div>
+
+            <div id="shareModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Paylaş</h3>
+                        <button onclick="closeShareModal()" class="close-button">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="modal-options">
+                        <button onclick="showShareForm('photo')" class="share-option">
+                            <i class="fas fa-camera"></i>
+                            <span>Fotoğraf</span>
+                        </button>
+                        <button onclick="showShareForm('note')" class="share-option">
+                            <i class="fas fa-note-sticky"></i>
+                            <span>Not</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="photoForm" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Fotoğraf Paylaş</h3>
+                        <button onclick="closePhotoForm()" class="close-button">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <textarea id="photoCaption" placeholder="Fotoğraf açıklaması ekle..." rows="3"></textarea>
+                    <div class="form-controls">
+                        <label class="image-upload">
+                            <i class="fas fa-images"></i>
+                            <input type="file" id="imageInput" accept="image/*" onchange="previewImages()" hidden multiple>
+                        </label>
+                        <button onclick="sharePhotoPost()">Paylaş</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="noteForm" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Not Paylaş</h3>
+                        <button onclick="closeNoteForm()" class="close-button">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <textarea id="noteText" placeholder="Not ekle..." rows="5"></textarea>
+                    <div class="form-controls">
+                        <button onclick="shareNotePost()">Paylaş</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Ana uygulama kodu -->
+    <script src="app.js"></script>
+</body>
+</html> 
